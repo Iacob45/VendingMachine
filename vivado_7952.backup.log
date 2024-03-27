@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jun 14 18:51:22 2023
+# Process ID: 7952
+# Current directory: D:/VivadoLibrary/VendingMachine
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8592 D:\VivadoLibrary\VendingMachine\VendingMachine.xpr
+# Log file: D:/VivadoLibrary/VendingMachine/vivado.log
+# Journal file: D:/VivadoLibrary/VendingMachine\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VivadoLibrary/VendingMachine/VendingMachine.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/VivadoLibrary/VendingMachine/VendingMachine.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:12 . Memory (MB): peak = 1005.273 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7s50csga324-1
+Top: vending_machine
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1299.902 ; gain = 270.773
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'vending_machine' [D:/VivadoLibrary/VendingMachine/VendingMachine.srcs/sources_1/new/vending_machine.v:23]
+	Parameter q0 bound to: 3'b000 
+	Parameter q05 bound to: 3'b001 
+	Parameter q1 bound to: 3'b010 
+	Parameter q15 bound to: 3'b011 
+	Parameter q2 bound to: 3'b100 
+	Parameter q25 bound to: 3'b101 
+INFO: [Synth 8-6155] done synthesizing module 'vending_machine' (1#1) [D:/VivadoLibrary/VendingMachine/VendingMachine.srcs/sources_1/new/vending_machine.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1371.824 ; gain = 342.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1371.824 ; gain = 342.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1371.824 ; gain = 342.695
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1371.824 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1429.504 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:28 ; elapsed = 00:00:16 . Memory (MB): peak = 1552.953 ; gain = 523.824
+5 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:35 . Memory (MB): peak = 1552.953 ; gain = 547.680
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 14 20:28:47 2023...

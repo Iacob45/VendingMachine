@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 27 19:20:45 2024
+# Process ID: 268
+# Current directory: D:/VivadoLibrary/VendingMachine
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10044 D:\VivadoLibrary\VendingMachine\VendingMachine.xpr
+# Log file: D:/VivadoLibrary/VendingMachine/vivado.log
+# Journal file: D:/VivadoLibrary/VendingMachine\vivado.jou
+#-----------------------------------------------------------
+start_gui

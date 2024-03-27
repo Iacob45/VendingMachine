@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VivadoLibrary/VendingMachine/VendingMachine.srcs/sources_1/new/vending_machine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vending_machine
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VivadoLibrary/VendingMachine/VendingMachine.srcs/sim_1/new/test_vendinge_machine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_vendinge_machine
