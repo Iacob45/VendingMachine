@@ -10,3 +10,5 @@
 # Journal file: D:/VivadoLibrary/VendingMachine\vivado.jou
 #-----------------------------------------------------------
 start_gui
+open_project D:/VivadoLibrary/VendingMachine/VendingMachine.xpr
+update_compile_order -fileset sources_1
